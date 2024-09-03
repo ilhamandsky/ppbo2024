@@ -37,6 +37,6 @@ class Kerucut
     }
 }
 
-$kerucut = new Kerucut;
+$kerucut = new Kerucut(4, 10);
 $nasi_tumpeng = $kerucut->volume(4, 10);
 echo "Volume nasi tumpengnya adalah {$nasi_tumpeng}";
