@@ -1,11 +1,11 @@
 <?php
-namespace App\Admin;
+namespace App\Model\Akademik;
 
 class Pegawai {
-    public $nip;
-    public $nama;
-    protected $no_hp;
-    public $alamat;
+    public int $nip;
+    public string $nama;
+    protected int $no_hp;
+    public string $alamat;
 
     public function cekIn() : bool {
         return true;
