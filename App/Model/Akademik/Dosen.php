@@ -17,4 +17,5 @@ class Dosen extends Pegawai{
     public function mengajar() : void {
         echo "{$this->nama} sedang mengajar perkuliahan";
     }
+
  }
